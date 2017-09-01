@@ -1,0 +1,7 @@
+[package]
+name = "modbus-operator"
+version = "0.1.0"
+
+[dependencies]
+colored = "=1.4.0"
+tokio-modbus = { path="../tokio-modbus", version="0.1.0" }
